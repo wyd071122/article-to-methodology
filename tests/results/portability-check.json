@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "skill": "service-week-experiment",
+      "file_count": 3,
+      "copied_files_identical": true
+    },
+    {
+      "skill": "inventory-reorder-trigger",
+      "file_count": 3,
+      "copied_files_identical": true
+    },
+    {
+      "skill": "editorial-material-handoff",
+      "file_count": 3,
+      "copied_files_identical": true
+    },
+    {
+      "skill": "ordinary-activity-review",
+      "file_count": 3,
+      "copied_files_identical": true
+    },
+    {
+      "skill": "release-window-observation",
+      "file_count": 3,
+      "copied_files_identical": true
+    },
+    {
+      "skill": "measure-meeting-punctuality",
+      "file_count": 3,
+      "copied_files_identical": true
+    }
+  ],
+  "scope": "生成后复制完整技能包，由新执行者只读包内指令与引用来处理新输入；逐文件核对复制一致。"
+}

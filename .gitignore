@@ -1,0 +1,9 @@
+.firecrawl/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+tests/results/**/run-notes.md
+tests/results/usage/*-run.md

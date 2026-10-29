@@ -1,0 +1,4 @@
+interface:
+  display_name: "发布窗口观察记录"
+  short_description: "Record a release window and calculate supported error rates"
+  default_prompt: "请使用 $release-window-observation 记录这次观察窗口，核对请求数并计算错误率。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "会议结束准时率记录"
+  short_description: "按观察期记录会议是否按约定结束，计算准时率并标明取消与缺失记录。"
+  default_prompt: "请使用 $measure-meeting-punctuality 记录本观察期会议的结束准时情况，并计算可确定的准时率。"

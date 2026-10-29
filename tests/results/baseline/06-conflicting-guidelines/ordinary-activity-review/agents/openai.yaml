@@ -1,0 +1,4 @@
+interface:
+  display_name: "普通活动申请检查"
+  short_description: "Check required fields and resolve supported approval routing"
+  default_prompt: "请使用 $ordinary-activity-review 检查这份普通活动申请，并在依据充分时判断审批人。"

@@ -1,0 +1,14 @@
+{
+  "revision": "v0.3-tested",
+  "files_sha256": {
+    "agents/openai.yaml": "48f8e1b8850ebf26e1c7c7964522e4f869d7e33f59fc40c7bdc8f7d6f5863839",
+    "LICENSE": "f5e3b1b7bff5570ae105ce3fa68cd5d226b32fe8c31f08bf6cadd3c7088a325a",
+    "references/evaluation.md": "84143a5ab45a83778f2166785280172558d72dac6a15dbab36d7a92d732a01f7",
+    "references/evidence-and-selection.md": "9a0571a4ae3cf4d403769d6099a76308c115ceabc398478f326f597465149ae3",
+    "references/skill-contract.md": "09eded834187424744b636bfdd318c193833947fdb97f480b7702fe38e0fb2cb",
+    "SKILL.md": "7e4d46ff4ab2548f2d5d853e7e1675d9a5d270d5525e95605cb9921390e4be76"
+  },
+  "reason": "首轮结果支持任务匹配与分支粒度；进一步显式化来源忠实度与现实有效性的区别，并要求正常完成/正确停止配对测试。",
+  "authoring_refinement": "初轮多名执行者遇到模板不匹配后恢复；补充初始化后先读实际模板再修改的操作指引。",
+  "evaluation_refinement": "保留库存原轮测试输入不足的记录；补齐确定交期后新建用例，不修改原检查预期，并补充测试前提核对规范。"
+}

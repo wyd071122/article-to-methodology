@@ -1,0 +1,32 @@
+[
+  {
+    "Ref": "7540eefbe74933f5fc84c86becac52486b347778",
+    "Repo": "virgiliojr94/book-to-skill",
+    "Name": "virgilio-book-to-skill.md",
+    "Path": "SKILL.md"
+  },
+  {
+    "Ref": "a24960ac89a3baa96a87cdf5ebaecf16c5d2eab1",
+    "Repo": "apple-ouyang/book-to-skill",
+    "Name": "apple-book-to-skill.md",
+    "Path": "skills/book-to-skill/SKILL.md"
+  },
+  {
+    "Ref": "a24960ac89a3baa96a87cdf5ebaecf16c5d2eab1",
+    "Repo": "apple-ouyang/book-to-skill",
+    "Name": "apple-making-decisions.md",
+    "Path": "skills/making-decisions/SKILL.md"
+  },
+  {
+    "Ref": "a28de55ba881b9928956a55048f743f7a9e3b23e",
+    "Repo": "kangarooking/cangjie-skill",
+    "Name": "cangjie-skill.md",
+    "Path": "SKILL.md"
+  },
+  {
+    "Repo": "kangarooking/cangjie-skill",
+    "Ref": "a28de55ba881b9928956a55048f743f7a9e3b23e",
+    "Path": "methodology/06-stage4-pressure-test.md",
+    "Name": "cangjie-pressure-test.md"
+  }
+]

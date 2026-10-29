@@ -1,0 +1,10 @@
+{
+  "stage": "before independent usage and heldout runs",
+  "sha256": {
+    "tests/cases.json": "1e1dcb45e507b0e238d2cc3d4c8b569505c05fc8e48c7ce98fd62903598b3b7e",
+    "tests/usage-cases.json": "d059ddd2a4179039d1ba8e1ceca22e7868c4447c2abe87c7b7e72cfcdaa152b9",
+    "tests/heldout-cases.json": "8a478f7febcf5a1a2f9b83a5dd63c32862c98f8dbab0047ecf096fd70bb5acc6",
+    "tests/rubric.json": "979b62bf9c2c0199ea29f025104d2243f1c803e8f2152abe78f779adeb8ebd00"
+  },
+  "note": "评分规则在实际执行前固定。常规蒸馏已启动；后补充的使用测试覆盖一致区间和已确认交接分支。"
+}

@@ -1,0 +1,12 @@
+{
+  "revision": "v0.1-baseline",
+  "instruction_files_sha256": {
+    "agents/openai.yaml": "48f8e1b8850ebf26e1c7c7964522e4f869d7e33f59fc40c7bdc8f7d6f5863839",
+    "references/evaluation.md": "ab4ea434ac0f2d67154c9e91dc6eaf1f8ba61a84e8c142b09f913ff8bc3f5790",
+    "references/evidence-and-selection.md": "c9ffa0a08e7525ed1ff6f105c8e4f93d53793bd4a510e42e8689a5fd526518bb",
+    "references/skill-contract.md": "3c1871d580802658a426c1d898e4f7283dbc98d67a6ff9156058c5db73c039ea",
+    "SKILL.md": "c4b3f737fe487edf143373a3c4163dd864b7b3399082442e635705c1f5dd4571"
+  },
+  "python": "3.13.14",
+  "note": "独立执行者只读任务、输入和技能指令，不读rubric.json；原始输出保留。"
+}

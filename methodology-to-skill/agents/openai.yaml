@@ -1,0 +1,4 @@
+interface:
+  display_name: "方法论蒸馏"
+  short_description: "将书籍、文章与访谈中的方法提炼为有来源依据、可执行且可测试的 Skill"
+  default_prompt: "请使用 $methodology-to-skill 将我提供的原文蒸馏为可追溯、可执行的技能包，记录来源与边界，实际测试后交付。"

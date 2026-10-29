@@ -1,0 +1,4 @@
+interface:
+  display_name: "服务流程一周试验"
+  short_description: "依据用户受阻记录筛选服务问题并设计单一改变的一周试验与证据复盘"
+  default_prompt: "请使用 $service-week-experiment 根据我的服务受阻记录设计一周试验，并列出缺失信息。"

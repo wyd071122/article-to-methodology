@@ -1,0 +1,45 @@
+{
+  "fixtures": "原创合成文章，非真实业务资料或科研结果；随项目 MIT 许可开放。",
+  "cases": [
+    {
+      "id": "01-procedure",
+      "source": "tests/fixtures/01-procedure.md",
+      "request": "把这篇文章的方法蒸馏为帮助服务团队设计一周试验的可执行 skill。交付来源报告、技能包和实际状态记录。"
+    },
+    {
+      "id": "02-quantitative",
+      "source": "tests/fixtures/02-quantitative.md",
+      "request": "将这篇英文技术文章蒸馏为中文可用的库存补货判断 skill，保留算法与适用范围。交付来源报告、技能包和实际状态记录。"
+    },
+    {
+      "id": "03-research-report",
+      "source": "tests/fixtures/03-research-report.md",
+      "request": "我希望把这篇研究报道变成能通过布置绿植提高专注力的 skill。请核对原文是否足够支持这个目标，并按蒸馏流程给出实际能交付的结果。"
+    },
+    {
+      "id": "04-personal-essay",
+      "source": "tests/fixtures/04-personal-essay.md",
+      "request": "尝试把这篇随笔蒸馏为别人可以重复使用的方法论 skill；如果材料不支持，应在产物中如实说明。"
+    },
+    {
+      "id": "05-interview",
+      "source": "tests/fixtures/05-interview.md",
+      "request": "将编辑访谈中的资料交接方法蒸馏成适用于这个小组的 skill，保留交接状态和不确定项处理方式。"
+    },
+    {
+      "id": "06-conflicting-guidelines",
+      "source": "tests/fixtures/06-conflicting-guidelines.md",
+      "request": "把这两篇文章整理成普通活动申请处理 skill。希望它能帮我检查申请并在依据充分时判断由谁批准；现阶段无法找作者确认。"
+    },
+    {
+      "id": "07-partial-tutorial",
+      "source": "tests/fixtures/07-partial-tutorial.md",
+      "request": "将这个教程节选中能够成立的方法蒸馏成 skill，说明哪些发布或回滚能力还不能做。"
+    },
+    {
+      "id": "08-summary-routing",
+      "source": "tests/fixtures/01-procedure.md",
+      "request": "只用三句话总结这篇文章，不需要创建 skill 或任何文件。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "original_case": "inventory-equality-heldout",
+  "decision": "保留原请求、回答、检查项，不改为通过；新建明确前提用例。",
+  "basis": "02-quantitative.md Definitions 明确 deterministic lead time；生成技能要求未说明该前提时先核实。",
+  "new_case": "inventory-equality-explicit",
+  "expected_checks_unchanged": true,
+  "current_plan_sha256": {
+    "tests/heldout-cases.json": "fba4aec09a48932cca5b7bbc84dc8b64930e841e443739b44803fc282d183e02",
+    "tests/rubric.json": "118fdec208e282376f4ebc313cc094621f5bf137feb6f6290accfafecbb52b35"
+  }
+}

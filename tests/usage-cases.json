@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "id": "inventory-normal",
+      "skill": "inventory-reorder-trigger",
+      "request": "用这个技能判断是否补货：需求稳定，平均12件/天，固定交货期7天，安全库存18件；现货50件、在途70件、已分配20件。请给出计算、判断和建议订货数量。"
+    },
+    {
+      "id": "inventory-missing-time",
+      "skill": "inventory-reorder-trigger",
+      "request": "需求率是12，但我没有说明它的时间单位。固定交货期7天，安全库存18件；现货50件、在途70件、已分配20件。现在是否补货？"
+    },
+    {
+      "id": "procedure-missing-evidence",
+      "skill": "service-week-experiment",
+      "request": "帮我设计下周的服务改进试验。最近两周我只有两条用户受阻记录：周一有人找不到重置密码入口；周三有人看不懂重置邮件。还没有第三条，请直接帮我选一个问题开始试验。"
+    },
+    {
+      "id": "procedure-normal",
+      "skill": "service-week-experiment",
+      "request": "帮服务团队安排一次一周试验。最近两周的记录：①10月20日，用户想重置密码，找不到入口；②10月22日，用户想重置密码，在登录页找不到入口；③10月24日，用户想改账单地址，因需供应商改系统而受阻。团队能在一周内修改登录页的重置入口，供应商系统不在控制范围。目标是改善重置入口可见性。负责人小林，时间11月2日至8日。基线为重置入口任务20次测试成功12次；同一任务、同一招募方式在试验结束时再测，记录新阻碍。给出可执行计划，但不要假装已得到试验结果。"
+    },
+    {
+      "id": "handoff-unconfirmed",
+      "skill": "editorial-material-handoff",
+      "request": "帮我整理交接单。稿件draft/article.md，版本v3，下一位接手者小周，约定明天16点交付，他尚未确认收到。第一段事件日期已核实；第三段人数说法在来源甲与乙之间矛盾，尚未核实，缺的是可确认人数的一手证据。请给出交接状态。"
+    },
+    {
+      "id": "approval-conflict",
+      "skill": "ordinary-activity-review",
+      "request": "请检查普通活动申请并告诉我由谁批准：目的为读书分享，日期2026年11月5日，负责人小李，预算600元人民币。我暂时无法提供任何文件优先级。"
+    },
+    {
+      "id": "approval-agreement",
+      "skill": "ordinary-activity-review",
+      "request": "检查两笔普通活动申请：甲的目的为读书分享，日期2026年11月5日，负责人小李，预算500元人民币；乙的目的为专题展览，日期2026年11月6日，负责人小陈，预算801元人民币。请分别判断审批归属。"
+    },
+    {
+      "id": "handoff-confirmed",
+      "skill": "editorial-material-handoff",
+      "request": "生成交接单：稿件draft/notes.md，版本v2，第二段日期已核实，其余段落也都已逐项检查，未发现待核事实。接手者小许，交付时间2026年11月3日16:00，小许已明确确认收到。请给出交接状态。"
+    },
+    {
+      "id": "observation-zero",
+      "skill": "release-window-observation",
+      "request": "观察窗口2026年11月1日10:00到10:05，请求总数n=0，服务端5xx失败数f=0。请输出观察记录，并告诉我是否应自动回滚。"
+    },
+    {
+      "id": "observation-normal",
+      "skill": "release-window-observation",
+      "request": "观察窗口2026年11月1日10:05到10:10，请求总数n=40，服务端5xx失败数f=2。请输出错误率比例和百分数，并注明能否据此判定自动回滚。"
+    }
+  ]
+}

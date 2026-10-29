@@ -1,0 +1,4 @@
+interface:
+  display_name: "库存补货触发判断"
+  short_description: "在需求稳定且交期确定时计算补货点和库存头寸并给出中文触发判断"
+  default_prompt: "请使用 $inventory-reorder-trigger 检查输入与适用范围，计算补货点和库存头寸并判断是否触发补货。"

@@ -1,0 +1,105 @@
+{
+  "tool": "official skill-creator/scripts/quick_validate.py",
+  "encoding": "Python UTF-8 mode",
+  "revision": "v0.3-tested",
+  "skills_checked": 7,
+  "checks": [
+    {
+      "skill": "methodology-to-skill",
+      "name": "methodology-to-skill",
+      "validator_exit_code": 0,
+      "validator_stdout": "Skill is valid!",
+      "yaml": "valid",
+      "short_description_characters": 36,
+      "default_prompt_literal": true,
+      "references_inside_package": [
+        "SKILL.md -> references/evidence-and-selection.md",
+        "SKILL.md -> references/skill-contract.md",
+        "SKILL.md -> references/evaluation.md"
+      ],
+      "scripts": 0
+    },
+    {
+      "skill": "tests/results/baseline/01-procedure/service-week-experiment",
+      "name": "service-week-experiment",
+      "validator_exit_code": 0,
+      "validator_stdout": "Skill is valid!",
+      "yaml": "valid",
+      "short_description_characters": 31,
+      "default_prompt_literal": true,
+      "references_inside_package": [
+        "SKILL.md -> references/evidence.md",
+        "SKILL.md -> references/evidence.md"
+      ],
+      "scripts": 0
+    },
+    {
+      "skill": "tests/results/baseline/02-quantitative/inventory-reorder-trigger",
+      "name": "inventory-reorder-trigger",
+      "validator_exit_code": 0,
+      "validator_stdout": "Skill is valid!",
+      "yaml": "valid",
+      "short_description_characters": 30,
+      "default_prompt_literal": true,
+      "references_inside_package": [
+        "SKILL.md -> references/evidence.md",
+        "SKILL.md -> references/evidence.md"
+      ],
+      "scripts": 0
+    },
+    {
+      "skill": "tests/results/baseline/05-interview/editorial-material-handoff",
+      "name": "editorial-material-handoff",
+      "validator_exit_code": 0,
+      "validator_stdout": "Skill is valid!",
+      "yaml": "valid",
+      "short_description_characters": 33,
+      "default_prompt_literal": true,
+      "references_inside_package": [
+        "SKILL.md -> references/evidence.md"
+      ],
+      "scripts": 0
+    },
+    {
+      "skill": "tests/results/baseline/06-conflicting-guidelines/ordinary-activity-review",
+      "name": "ordinary-activity-review",
+      "validator_exit_code": 0,
+      "validator_stdout": "Skill is valid!",
+      "yaml": "valid",
+      "short_description_characters": 60,
+      "default_prompt_literal": true,
+      "references_inside_package": [
+        "SKILL.md -> references/evidence.md"
+      ],
+      "scripts": 0
+    },
+    {
+      "skill": "tests/results/baseline/07-partial-tutorial/release-window-observation",
+      "name": "release-window-observation",
+      "validator_exit_code": 0,
+      "validator_stdout": "Skill is valid!",
+      "yaml": "valid",
+      "short_description_characters": 59,
+      "default_prompt_literal": true,
+      "references_inside_package": [
+        "SKILL.md -> references/evidence.md"
+      ],
+      "scripts": 0
+    },
+    {
+      "skill": "tests/results/refined/09-research-method/measure-meeting-punctuality",
+      "name": "measure-meeting-punctuality",
+      "validator_exit_code": 0,
+      "validator_stdout": "Skill is valid!",
+      "yaml": "valid",
+      "short_description_characters": 32,
+      "default_prompt_literal": true,
+      "references_inside_package": [
+        "SKILL.md -> references/evidence.md"
+      ],
+      "scripts": 0
+    }
+  ],
+  "git_initialized": false,
+  "note": "最后一次指令修订完成后运行；格式和补充结构检查不替代行为评估。"
+}

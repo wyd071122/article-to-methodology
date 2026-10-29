@@ -1,0 +1,4 @@
+interface:
+  display_name: "编辑小组资料交接"
+  short_description: "为资料稿编辑小组编制可追溯交接单，保留核查状态、待补证据与事实分歧"
+  default_prompt: "请使用 $editorial-material-handoff 编制这份稿件的资料交接单，并判断当前交接状态。"
